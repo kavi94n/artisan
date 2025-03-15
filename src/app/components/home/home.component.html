@@ -1,0 +1,25 @@
+<!-- home.component.html -->
+<div class="container">
+    <h1>Comment trouver mon artisan ?</h1>
+    <ol>
+      <li>Choisir la catégorie d’artisanat dans le menu.</li>
+      <li>Choisir un artisan.</li>
+      <li>Le contacter via le formulaire de contact.</li>
+      <li>Une réponse sera apportée sous 48h.</li>
+    </ol>
+    <h2>Artisans du mois</h2>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let artisan of artisans">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">{{ artisan.name }}</h5>
+            <p class="card-text">{{ artisan.specialty }}</p>
+            <p class="card-text">{{ artisan.location }}</p>
+            <div>
+              <span *ngFor="let star of [1, 2, 3, 4, 5]">⭐</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

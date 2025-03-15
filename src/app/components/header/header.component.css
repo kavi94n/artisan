@@ -1,0 +1,45 @@
+
+.navbar {
+    background-color: #f1f8fc;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    height: auto;
+    max-width: 100px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    color: #00497c;
+    cursor: pointer;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  
+  /* Navbar Links */
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    margin: 0 10px;
+    color: #384050;
+  }
+
+ 
+  
+  .nav-link {
+    color: #384050 !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+ /* .nav-link:hover {
+    color: 
+  }
